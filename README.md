@@ -1,6 +1,9 @@
 # Swigy UI Clone 
 I created a Swiggy clone using React and Tailwind CSS, integrating APIs for dynamic data retrieval and seamless user experience. This project showcases modern web development practices and responsive design capabilities.
 
+## Link
+https://swigyduplicate.vercel.app/
+
 ## Screenshots
 
 ![Swigy-Landing-Page](https://github.com/Uditsingh1234/example/assets/141742304/ec9ac00d-a09c-4feb-9f6a-4c9c3dd602df)
