@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Swigy UI Clone 
+I created a Swiggy clone using React and Tailwind CSS, integrating APIs for dynamic data retrieval and seamless user experience. This project showcases modern web development practices and responsive design capabilities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshots
 
-## Available Scripts
+![Swigy-Landing-Page](https://github.com/Uditsingh1234/example/assets/141742304/ec9ac00d-a09c-4feb-9f6a-4c9c3dd602df)
 
-In the project directory, you can run:
+## Responsive SideBar
 
-### `npm start`
+I designed a responsive sidebar using React and Tailwind CSS. The sidebar efficiently manages Location's . Its design ensures smooth transitions and a user-friendly interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ScreenShoots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot 2024-06-01 145718](https://github.com/Uditsingh1234/example/assets/141742304/62941f3a-cf49-49fe-8692-d2adf1b45a8a)
 
-### `npm test`
+I implemented a dynamic Sidebar featuring a down arrow icon in orange. When users click on this icon, the navbar activates. Clicking outside the Sidebar will deactivate it, collapsing the menu and maintaining a clean user interface. This functionality ensures intuitive navigation and enhances the overall user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I implemented a dynamic Sidebar featuring a down arrow icon in orange. When users click on this icon, the navbar activates. Clicking outside the Sidebar will deactivate it, collapsing the menu and maintaining a clean user interface. This functionality ensures intuitive navigation and enhances the overall user experience.
 
-### `npm run build`
+I implemented a dynamic Sidebar featuring a down arrow icon in orange. When users click on this icon, the navbar activates. Clicking outside the Sidebar will deactivate it, collapsing the menu and maintaining a clean user interface. This functionality ensures intuitive navigation and enhances the overall user experience.
+## What's on your mind! Section
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2024-06-01 150342](https://github.com/Uditsingh1234/example/assets/141742304/6ee6d84b-4e6f-4768-a0ff-8cb629f221a5)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I developed a "What's in Your Mind" section with a slidable feature. This section allows users to navigate through content smoothly using left and right arrow icons positioned above the section. The sliding mechanism enhances user engagement by providing an interactive way to browse through various ideas and suggestions.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dropdown Menu (Sort by in filter Section)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 2024-06-01 150948](https://github.com/Uditsingh1234/example/assets/141742304/1320c706-cd53-441d-8aa3-93bd1ac10884)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In the Filter section there is Dropdown Menu which shows the Filter functionality. It have Clickable function this visible and hide on click it.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## API Data
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I implemented cards that dynamically display data fetched from the Swiggy clone API. These cards showcase essential details such as restaurant names, images, ratings, place, and types,
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 2024-06-01 151703](https://github.com/Uditsingh1234/example/assets/141742304/79e440d4-873f-46b2-a003-b9d43f198305)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## API Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### To run the API 
+![Screenshot 2024-06-01 152223](https://github.com/Uditsingh1234/example/assets/141742304/82eae9d9-fcff-4eef-a6e3-34255cf4306a)
 
-### Making a Progressive Web App
+There is folder in the repository 'swigy-api' Open in terminal and run below command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```http
+  nodemon index
+```
 
-### Advanced Configuration
+After that your api will live on Your localhost
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Run Locally
 
-### Deployment
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+  git clone https://link-to-project
+```
 
-### `npm run build` fails to minify
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Footer section
+
+![Screenshot 2024-06-01 153157](https://github.com/Uditsingh1234/example/assets/141742304/98fb35da-0dc5-453d-8f6f-b687e468500a)
