@@ -7,7 +7,7 @@ function TopRest() {
     const [data, setData] = useState()
 
     const fetchTopRestaurant = async () => {
-        const response = await fetch("http://localhost:5000/top-restaurant-chains")
+        const response = await fetch("https://swigy-ui-clone.onrender.com/top-restaurant-chains")
         const apidata = await response.json();
         setData(apidata);
     }
